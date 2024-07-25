@@ -1,5 +1,5 @@
 const router = require('express').Router();
-//const {Category} = require(../../db/models)
+const {Category} = require(../../db/models)
 //подтягиваем темы квизо с базы данных 
 
 router.route('/')

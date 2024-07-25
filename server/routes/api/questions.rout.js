@@ -1,5 +1,5 @@
 const router = require('express').Router();
-//const {Qestions} = require(../../db/models)
+const {Qestions} = require(../../db/models)
 //подтягиваем вопросы с базы данных 
 
 router.route('/:id')
