@@ -5,4 +5,4 @@ const serverConfig = (app) => {
     app.use(express.json());
 }
 
-module.exports = serverConfig;
+module.exports = serverConfig();

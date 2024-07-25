@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {Qestions} = require(../../db/models)
+//const {Qestions} = require(../../db/models)
 //подтягиваем вопросы с базы данных 
 
 router.route('/:id')
@@ -12,7 +12,7 @@ router.route('/:id')
             res.status(500).json({error: error.message});
         }
     })
-    
+
     module.exports = router;  
 
 
